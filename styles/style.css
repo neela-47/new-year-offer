@@ -7,8 +7,8 @@
 /* header style */
 .banner-container{
     height: 600px;
-    width: 1320px;
-    border: 1px solid red;
+    max-width: 1320px;
+    
     margin: 0 auto;
     margin-top: 20px;
     background-image: url(../images/Banner\ Image.png);
@@ -28,4 +28,40 @@
 }
 .banner-contents h1{
     font-size: 52px;
+}
+/* second section container style */
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+   margin: 120px auto;
+   text-align: center;
+}
+.second-section-contents h1{
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700; 
+    font-family: Inter; 
+}
+.second-section-contents p{
+    color: rgb(255, 0, 0);
+   
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 107px;
+}
+.second-section-contents h3{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 150px;
+
+}
+.image-container{
+    width: 802.9px;
+height: 500px;
+}
+..image-container img{
+    width: 802.9px;
+    height: 500px;
 }
