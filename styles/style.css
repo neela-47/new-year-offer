@@ -173,12 +173,14 @@ margin-top: 70px;
 height: 255px;
 margin: auto 0;
 line-height:  ;
+
 }
 .offer-content-left h3{
     color: rgb(255, 0, 0);
 font-weight: 500;
 font-size: 24px;
-margin: 5px;
+margin-bottom: 5px;
+
 }
 .offer-content-left h1{
     color: rgb(7, 2, 17);
@@ -191,6 +193,7 @@ margin-bottom: 5px;
     color: rgba(7, 2, 17, 0.6);
 font-size: 20px;
 font-weight: 400;
+font-size: 16px
 }
 
 .offer-content-circle{
@@ -235,3 +238,72 @@ margin-bottom: 10px;
     margin-right: 120px;
     margin-top: 15px;
 }
+/* holiday style */
+.holyday-section-container
+{
+    width: 1320px;
+height: 986.07px;
+
+margin: 120px auto;
+position: relative;
+
+}
+.holyday-text-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.holyday-text-container h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.holyday-text-container h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.holyday-text-container h1 .holyday{
+    color: rgb(255, 0, 0);
+}
+.holyday-text-container  p
+{
+color: rgba(7, 2, 17, 0.6);
+
+font-size: 20px;
+font-weight: 500;
+width: 1068px;
+height: 96px;
+line-height: 32px;
+text-align: center;
+}
+.holyday-section-container .solid-color{
+    width: 1320px;
+height: 229px;
+background-color: red;
+position: absolute;
+top: 77%
+}
+.gift-box{
+    width: 674.82px;
+height: 577.96px;
+position: relative;
+z-index: 1;
+display: flex;
+top: 10%;
+
+}
+.discount{
+    width: 305.69px;
+height: 305.69px;
+position: relative;
+left: 50%;
+}
+
