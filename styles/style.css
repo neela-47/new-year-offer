@@ -67,7 +67,7 @@ margin-bottom: 150px;
 }
 /* mid night contents style */
 .midnight-party-contents{
-    background-image: url(/images/Vectorrr.png);
+    background-image: url(../images/midnight.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.6);
